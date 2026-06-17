@@ -1,0 +1,141 @@
+/* Whole page */
+
+body {
+  margin: 0;
+  background-color: #02103d;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.app {
+  padding: 20px;
+}
+
+/* Toolbar */
+
+.toolbar {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.toolbar button {
+  padding: 12px 20px;
+  font-size: 16px;
+  cursor: pointer;
+
+  border: none;
+  border-radius: 8px;
+
+  background-color: white;
+
+  transition: 0.2s;
+}
+
+.toolbar button:hover {
+  background-color: #ddd;
+}
+
+/* Main area */
+
+.graph-container {
+  height: 750px;
+
+  display: flex;
+
+  border: 2px solid #555;
+}
+
+/* Left sidebar */
+
+.sidebar {
+  width: 300px;
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 20px;
+
+  padding: 20px;
+
+  border-right: 2px solid #555;
+}
+
+/* Device Information */
+
+.info-panel {
+  padding: 20px;
+
+  border: 2px solid #555;
+  border-radius: 12px;
+
+  background-color: #0d1a4d;
+}
+
+.info-panel h2 {
+  margin-top: 0;
+}
+
+.info-panel h3 {
+  margin-top: 25px;
+}
+
+.info-panel ul {
+  padding-left: 20px;
+}
+
+.info-panel li {
+  margin-bottom: 8px;
+}
+
+/* Statistics */
+
+.stats-panel {
+  padding: 20px;
+
+  border: 2px solid #555;
+  border-radius: 12px;
+
+  background-color: #0d1a4d;
+}
+
+.stats-panel h2 {
+  margin-top: 0;
+}
+
+.stats-panel p {
+  margin-bottom: 12px;
+}
+
+/* Selected node text */
+
+h2 {
+  margin-bottom: 20px;
+}
+
+/* Cytoscape graph */
+
+.graph-container > div:last-child {
+  flex: 1;
+}
+.load-button {
+
+  padding: 12px 20px;
+
+  background-color: white;
+
+  color: black;
+
+  border-radius: 8px;
+
+  cursor: pointer;
+
+  transition: 0.2s;
+
+}
+
+.load-button:hover {
+
+  background-color: #ddd;
+
+}
